@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 export const PI = Math.PI, PI2 = PI * 2, hPI = PI / 2;
 
 export function shortestAngleDiff(a: number, b: number): number {

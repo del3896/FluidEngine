@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import { ECSNodeIndex } from "@fluid/core/node/NodeIndex";
 import { ECSSystemOrchestrator } from "@fluid/core/system/SystemOrchestrator";
 import { ECSSystemPhase } from "@fluid/core/system/SystemPhase";

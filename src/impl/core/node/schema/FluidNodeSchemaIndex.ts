@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import { ECSArchetype } from "@fluid/core/archetype/Archetype";
 import { ECSComponentType } from "@fluid/core/component/type/ComponentType";
 import { ECSNodeSchemaIndex } from "@fluid/core/node/schema/NodeSchemaIndex";

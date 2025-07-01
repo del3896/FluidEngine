@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 export function loadImage(src: string, timeoutMs = 10000): Promise<HTMLImageElement> {
     return new Promise((resolve, reject) => {
         const img = new Image();

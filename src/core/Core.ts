@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import { ECSComponentManager } from "./component/ComponentManager";
 import { ECSEntityManager } from "./entity/EntityManager";
 import { ECSNodeManager } from "./node/NodeManager";

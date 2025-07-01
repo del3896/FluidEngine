@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import { ECSComponentRepository } from "@fluid/core/component/ComponentRepository";
 import { ECSEntityId } from "@fluid/core/entity/EntityId";
 import { ECSEntityProxy } from "@fluid/core/entity/EntityProxy";

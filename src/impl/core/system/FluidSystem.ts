@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import { ECSNode } from "@fluid/core/node/Node";
 import { ECSNodeSchema } from "@fluid/core/node/schema/NodeSchema";
 import { ECSNodeSchemaMeta } from "@fluid/core/node/schema/NodeSchemaMeta";

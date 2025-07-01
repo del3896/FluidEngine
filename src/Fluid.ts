@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import { Core } from "./core/Core";
 import { CoreRuntime } from "./core/CoreRuntime";
 import { ECSComponent } from "./core/component/Component";

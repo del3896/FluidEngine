@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import { ECSNodeSchemaId } from "@fluid/core/node/schema/NodeSchemaId";
 
 export class FluidNodeSchemaId implements ECSNodeSchemaId {

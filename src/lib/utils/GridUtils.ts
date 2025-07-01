@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import {Axes, Vec2} from "../spatial";
 import {encodeIntegerPair} from "./MathUtils";
 

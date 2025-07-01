@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 export interface ECSComponentTypeId {
     /**
      * Determines whether the given id is considered equal to this instance.

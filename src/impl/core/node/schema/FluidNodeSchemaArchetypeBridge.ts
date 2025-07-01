@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import { ECSNodeSchema } from "@fluid/core/node/schema/NodeSchema";
 import { ECSNodeSchemaArchetypeHook } from "@fluid/core/node/schema/NodeSchemaArchetypeHook";
 import { ECSNodeSchemaMeta } from "@fluid/core/node/schema/NodeSchemaMeta";

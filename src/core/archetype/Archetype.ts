@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import {ECSComponentType} from "../component";
 
 export interface ECSArchetype {

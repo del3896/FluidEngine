@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import { ECSComponentType } from "@fluid/core/component/type/ComponentType";
 import { ECSComponentTypeId } from "@fluid/core/component/type/ComponentTypeId";
 import { ECSComponentTypeRegistry } from "@fluid/core/component/type/ComponentTypeRegistry";

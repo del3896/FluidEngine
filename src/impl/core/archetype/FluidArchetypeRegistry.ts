@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import { FluidArchetype } from "./FluidArchetype";
 
 export class FluidArchetypeRegistry {

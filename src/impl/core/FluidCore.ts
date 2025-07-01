@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import { ECSComponentManager } from "@fluid/core/component/ComponentManager";
 import { ECSComponentRepositoryHook } from "@fluid/core/component/ComponentRepositoryHook";
 import { ECSComponentTypeRegistryHook } from "@fluid/core/component/type/ComponentTypeRegistryHook";

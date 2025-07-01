@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 export interface OrderedList<T> {
     has(value: T): boolean;
     get(index: number): T;

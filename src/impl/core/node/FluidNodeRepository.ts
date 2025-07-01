@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import { ECSEntityId } from "@fluid/core/entity/EntityId";
 import { ECSNode } from "@fluid/core/node/Node";
 import { ECSNodeIndex } from "@fluid/core/node/NodeIndex";

@@ -1,3 +1,9 @@
+
+/* 
+    Released under MIT License
+    Copyright(c) 2025 Del Elbanna
+*/
+
 import {Vec2} from "./Vector2";
 
 export type ConvexPolygon = Vec2[];// must be in counter-clockwise or clockwise order
