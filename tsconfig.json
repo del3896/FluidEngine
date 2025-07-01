@@ -9,14 +9,14 @@
     "rootDir": ".",
     "paths": {
       "@fluid/*": [
-        "./FluidEngine/src/*"
+        "./src/*"
+      ],
+      "@fluidcore/*": [
+        "./src/core/*"
       ],
       "@fluidlib/*": [
-        "./FluidEngine/src/lib/*"
+        "./src/lib/*"
       ],
-      "@asteroid/*": [
-        "./AsteroidJourney/src/*"
-      ]
     }
   },
   "exclude": [
