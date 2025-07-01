@@ -4,7 +4,7 @@
     Copyright(c) 2025 Del Elbanna
 */
 
-import { Core } from ".";
+import { Core } from "./core/Core";
 import { FPSTimer } from "./lib/utils/FPSTimer";
 
 export class FluidEngine {

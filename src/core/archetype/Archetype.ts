@@ -4,7 +4,7 @@
     Copyright(c) 2025 Del Elbanna
 */
 
-import {ECSComponentType} from "../component";
+import { ECSComponentType } from "../component/type/ComponentType";
 
 export interface ECSArchetype {
     equals(other: ECSArchetype): boolean;

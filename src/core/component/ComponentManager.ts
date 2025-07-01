@@ -4,8 +4,6 @@
     Copyright(c) 2025 Del Elbanna
 */
 
-import { ECSEntityId } from "../entity/EntityId";
-import { ECSComponent } from "./Component";
 import { ECSComponentFactory } from "./ComponentFactory";
 import { ECSComponentRepository } from "./ComponentRepository";
 import { ECSComponentTypeFactory } from "./type/ComponentTypeFactory";
