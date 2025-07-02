@@ -27,26 +27,8 @@
     "vite": "^7.0.0",
     "vite-tsconfig-paths": "^5.1.4"
   },
-  "exports": {
-    "./Fluid": {
-      "import": "./dist/Fluid.js",
-      "types": "./dist/Fluid.d.ts"
-    },
-    "./core/*": {
-      "import": "./dist/core/*",
-      "types": "./dist/core/*"
-    },
-    "./impl/*": {
-      "import": "./dist/impl/*",
-      "types": "./dist/impl/*"
-    },
-    "./lib/*": {
-      "import": "./dist/lib/*",
-      "types": "./dist/lib/*"
-    }
-  },
   "files": [
-    "dist/*"
+    "dist/**/*"
   ],
   "scripts": {
     "clean": "rmdir /s /q .\\dist",
