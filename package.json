@@ -5,13 +5,19 @@
   "description": "A versatile and performant typescript game engine",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/delqb/FluidEngine.git"
   },
   "keywords": [
     "fluid",
-    "fluidengine"
+    "fluidengine",
+    "physics engine",
+    "game engine",
+    "game"
   ],
   "author": "Del Elbanna",
   "license": "MIT",
@@ -27,12 +33,9 @@
     "vite": "^7.0.0",
     "vite-tsconfig-paths": "^5.1.4"
   },
-  "files": [
-    "dist/**/*"
-  ],
   "scripts": {
     "clean": "rmdir /s /q .\\dist",
     "build": "npm run clean && tsc && tsc-alias",
-    "prepare": "tsc && tsc-alias"
+    "prepare": "npm run build"
   }
 }

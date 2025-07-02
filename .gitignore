@@ -6,3 +6,4 @@ package-lock.json
 LICENSEHEADER
 LICENSEHEADERPREV
 addlicense.py
+*.tgz
