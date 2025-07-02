@@ -19,9 +19,12 @@
     "url": "https://github.com/delqb/FluidEngine/issues"
   },
   "homepage": "https://github.com/delqb/FluidEngine",
+  "dependencies": {
+    "tsc-alias": "^1.8.16"
+  },
   "devDependencies": {
-    "vite": "^7.0.0",
     "typescript": "^5.8.3",
+    "vite": "^7.0.0",
     "vite-tsconfig-paths": "^5.1.4"
   },
   "exports": {
@@ -35,7 +38,7 @@
   ],
   "scripts": {
     "clean": "rmdir /s /q .\\dist",
-    "build": "npm run clean && tsc",
-    "prepare": "tsc"
+    "build": "npm run clean && tsc && tsc-alias",
+    "prepare": "tsc && tsc-alias"
   }
 }
