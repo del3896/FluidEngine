@@ -1,5 +1,5 @@
 {
-  "name": "@delqb/fluidengine",
+  "name": "fluidengine",
   "type": "module",
   "version": "0.0.0",
   "description": "A versatile and performant typescript game engine",
@@ -28,9 +28,21 @@
     "vite-tsconfig-paths": "^5.1.4"
   },
   "exports": {
-    "./*": {
-      "import": "./dist/*",
-      "types": "./dist/*"
+    "./Fluid": {
+      "import": "./dist/Fluid.js",
+      "types": "./dist/Fluid.d.ts"
+    },
+    "./core/*": {
+      "import": "./dist/core/*",
+      "types": "./dist/core/*"
+    },
+    "./impl/*": {
+      "import": "./dist/impl/*",
+      "types": "./dist/impl/*"
+    },
+    "./lib/*": {
+      "import": "./dist/lib/*",
+      "types": "./dist/lib/*"
     }
   },
   "files": [
