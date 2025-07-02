@@ -4,9 +4,11 @@
     "moduleDetection": "force",
     "target": "ESNext",
     "module": "ESNext",
-    "outDir": "out",
     "baseUrl": "./",
-    "rootDir": ".",
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true,
+    "declarationMap": true,
     "paths": {
       "@fluid/*": [
         "./src/*"
@@ -16,7 +18,7 @@
       ],
       "@fluidlib/*": [
         "./src/lib/*"
-      ],
+      ]
     }
   },
   "include": [
@@ -24,5 +26,10 @@
   ],
   "exclude": [
     "./node_modules"
-  ]
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "prepare": "npm run build"
+  }
 }

@@ -1,9 +1,7 @@
+dist/
 temp/
-js/
-out/
 node_modules
 package-lock.json
-dist
 .idea/*
-addlicense.py
 LICENSEHEADER
+addlicense.py
