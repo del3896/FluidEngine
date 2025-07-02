@@ -46,7 +46,7 @@
     }
   },
   "files": [
-    "dist"
+    "dist/*"
   ],
   "scripts": {
     "clean": "rmdir /s /q .\\dist",
