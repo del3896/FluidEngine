@@ -3,7 +3,6 @@ js/
 out/
 node_modules
 package-lock.json
-package.json
 dist
 .idea/*
 addlicense.py

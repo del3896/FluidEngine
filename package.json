@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "@delqb/fluidengine",
+  "version": "0.0.0",
+  "description": "A versatile and performant typescript game engine",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delqb/FluidEngine.git"
+  },
+  "keywords": [
+    "fluid",
+    "fluidengine"
+  ],
+  "author": "Del Elbanna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delqb/FluidEngine/issues"
+  },
+  "homepage": "https://github.com/delqb/FluidEngine",
+  "devDependencies": {
+    "vite": "^7.0.0",
+    "typescript": "^5.8.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
