@@ -1,7 +1,7 @@
 
-/* 
+/** 
     Released under MIT License
-    Copyright(c) 2025 Del Elbanna
+    Copyright (c) 2025 Del Elbanna
 */
 
 export type Vec2 = { x: number, y: number };
