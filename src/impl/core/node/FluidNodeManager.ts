@@ -4,17 +4,17 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSArchetype } from "@fluid/core/archetype/Archetype";
-import { ECSComponentType } from "@fluid/core/component/type/ComponentType";
-import { ECSEntityArchetypeHook } from "@fluid/core/entity/EntityArchetypeHook";
-import { ECSEntityId } from "@fluid/core/entity/EntityId";
-import { ECSNodeFactory } from "@fluid/core/node/NodeFactory";
-import { ECSNodeIndex } from "@fluid/core/node/NodeIndex";
-import { ECSNodeManager } from "@fluid/core/node/NodeManager";
-import { ECSNodeRepository } from "@fluid/core/node/NodeRepository";
-import { ECSNodeSchemaArchetypeProvider } from "@fluid/core/node/schema/NodeSchemaArchetypeProvider";
-import { ECSNodeSchemaIndex } from "@fluid/core/node/schema/NodeSchemaIndex";
-import { ECSNodeSchemaRegistry } from "@fluid/core/node/schema/NodeSchemaRegistry";
+import { ECSArchetype } from "core/archetype/Archetype";
+import { ECSComponentType } from "core/component/type/ComponentType";
+import { ECSEntityArchetypeHook } from "core/entity/EntityArchetypeHook";
+import { ECSEntityId } from "core/entity/EntityId";
+import { ECSNodeFactory } from "core/node/NodeFactory";
+import { ECSNodeIndex } from "core/node/NodeIndex";
+import { ECSNodeManager } from "core/node/NodeManager";
+import { ECSNodeRepository } from "core/node/NodeRepository";
+import { ECSNodeSchemaArchetypeProvider } from "core/node/schema/NodeSchemaArchetypeProvider";
+import { ECSNodeSchemaIndex } from "core/node/schema/NodeSchemaIndex";
+import { ECSNodeSchemaRegistry } from "core/node/schema/NodeSchemaRegistry";
 
 export class FluidNodeManager implements ECSNodeManager, ECSEntityArchetypeHook {
     constructor(

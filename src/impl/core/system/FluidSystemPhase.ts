@@ -4,12 +4,12 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSNodeIndex } from "@fluid/core/node/NodeIndex";
-import { ECSNodeSchema } from "@fluid/core/node/schema/NodeSchema";
-import { ECSSystem } from "@fluid/core/system/System";
-import { ECSSystemPhase } from "@fluid/core/system/SystemPhase";
-import { OrderedList } from "@fluid/core/util/OrderedList";
-import { OrderedArrayList } from "@fluid/lib/structures/OrderedArrayList";
+import { ECSNodeIndex } from "core/node/NodeIndex";
+import { ECSNodeSchema } from "core/node/schema/NodeSchema";
+import { ECSSystem } from "core/system/System";
+import { ECSSystemPhase } from "core/system/SystemPhase";
+import { OrderedList } from "core/util/OrderedList";
+import { OrderedArrayList } from "lib/structures/OrderedArrayList";
 
 export class FluidSystemPhase implements ECSSystemPhase {
     private readonly systemList: OrderedList<ECSSystem<ECSNodeSchema>> = new OrderedArrayList();

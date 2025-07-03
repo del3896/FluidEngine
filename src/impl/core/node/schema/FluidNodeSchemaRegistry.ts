@@ -4,12 +4,12 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSNodeSchema } from "@fluid/core/node/schema/NodeSchema";
-import { ECSNodeSchemaId } from "@fluid/core/node/schema/NodeSchemaId";
-import { ECSNodeSchemaMeta } from "@fluid/core/node/schema/NodeSchemaMeta";
-import { ECSNodeSchemaRegistry } from "@fluid/core/node/schema/NodeSchemaRegistry";
-import { ECSNodeSchemaRegistryHook } from "@fluid/core/node/schema/NodeSchemaRegistryHook";
-import { HookDispatcher } from "@fluid/core/util/hook/HookDispatcher";
+import { ECSNodeSchema } from "core/node/schema/NodeSchema";
+import { ECSNodeSchemaId } from "core/node/schema/NodeSchemaId";
+import { ECSNodeSchemaMeta } from "core/node/schema/NodeSchemaMeta";
+import { ECSNodeSchemaRegistry } from "core/node/schema/NodeSchemaRegistry";
+import { ECSNodeSchemaRegistryHook } from "core/node/schema/NodeSchemaRegistryHook";
+import { HookDispatcher } from "core/util/hook/HookDispatcher";
 import { FluidNodeSchemaId } from "./FluidNodeSchemaId";
 
 export class FluidNodeSchemaRegistry implements ECSNodeSchemaRegistry {

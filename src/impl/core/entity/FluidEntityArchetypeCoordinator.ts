@@ -4,17 +4,18 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSArchetype } from "@fluid/core/archetype/Archetype";
-import { ECSComponent } from "@fluid/core/component/Component";
-import { ECSComponentRepositoryHook } from "@fluid/core/component/ComponentRepositoryHook";
-import { ECSComponentType } from "@fluid/core/component/type/ComponentType";
-import { ECSEntityArchetypeHook } from "@fluid/core/entity/EntityArchetypeHook";
-import { ECSEntityArchetypeResolver } from "@fluid/core/entity/EntityArchetypeResolver";
-import { ECSEntityComponentTypesProvider } from "@fluid/core/entity/EntityComponentTypesProvider";
-import { ECSEntityId } from "@fluid/core/entity/EntityId";
-import { HookDispatcher } from "@fluid/core/util/hook/HookDispatcher";
+import { ECSArchetype } from "core/archetype/Archetype";
+import { ECSComponent } from "core/component/Component";
+import { ECSComponentRepositoryHook } from "core/component/ComponentRepositoryHook";
+import { ECSComponentType } from "core/component/type/ComponentType";
+import { ECSEntityArchetypeHook } from "core/entity/EntityArchetypeHook";
+import { ECSEntityArchetypeResolver } from "core/entity/EntityArchetypeResolver";
+import { ECSEntityComponentTypesProvider } from "core/entity/EntityComponentTypesProvider";
+import { ECSEntityId } from "core/entity/EntityId";
+import { HookDispatcher } from "core/util/hook/HookDispatcher";
 import { FluidArchetype } from "../archetype/FluidArchetype";
 import { FluidArchetypeRegistry } from "../archetype/FluidArchetypeRegistry";
+
 
 export class FluidEntityArchetypeCoordinator implements ECSEntityArchetypeResolver, ECSComponentRepositoryHook {
     private archetypeMap: Map<symbol, FluidArchetype> = new Map();

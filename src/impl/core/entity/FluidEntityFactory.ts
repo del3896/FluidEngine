@@ -4,9 +4,10 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSEntityFactory } from "@fluid/core/entity/EntityFactory";
-import { ECSEntityId } from "@fluid/core/entity/EntityId";
+import { ECSEntityFactory } from "core/entity/EntityFactory";
+import { ECSEntityId } from "core/entity/EntityId";
 import { FluidEntityId } from "./FluidEntityId";
+
 
 export class FluidEntityFactory implements ECSEntityFactory {
     private static readonly prefix = "FluidEntity";

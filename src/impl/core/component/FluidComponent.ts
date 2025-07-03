@@ -4,8 +4,9 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponent } from "@fluid/core/component/Component";
-import { ECSComponentTypeId } from "@fluid/core/component/type/ComponentTypeId";
+import { ECSComponent } from "core/component/Component";
+import { ECSComponentTypeId } from "core/component/type/ComponentTypeId";
+
 
 export class FluidComponent<T> implements ECSComponent<T> {
     constructor(

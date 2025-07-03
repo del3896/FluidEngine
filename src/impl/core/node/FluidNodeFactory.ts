@@ -4,12 +4,12 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSEntityComponentProvider } from "@fluid/core/entity/EntityComponentProvider";
-import { ECSEntityId } from "@fluid/core/entity/EntityId";
-import { ECSNode } from "@fluid/core/node/Node";
-import { ECSNodeFactory } from "@fluid/core/node/NodeFactory";
-import { ECSNodeSchema } from "@fluid/core/node/schema/NodeSchema";
-import { ECSNodeSchemaMeta } from "@fluid/core/node/schema/NodeSchemaMeta";
+import { ECSEntityComponentProvider } from "core/entity/EntityComponentProvider";
+import { ECSEntityId } from "core/entity/EntityId";
+import { ECSNode } from "core/node/Node";
+import { ECSNodeFactory } from "core/node/NodeFactory";
+import { ECSNodeSchema } from "core/node/schema/NodeSchema";
+import { ECSNodeSchemaMeta } from "core/node/schema/NodeSchemaMeta";
 
 export class FluidNodeFactory implements ECSNodeFactory {
     constructor(

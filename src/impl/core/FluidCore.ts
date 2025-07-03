@@ -4,17 +4,18 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentManager } from "@fluid/core/component/ComponentManager";
-import { ECSComponentRepositoryHook } from "@fluid/core/component/ComponentRepositoryHook";
-import { ECSComponentTypeRegistryHook } from "@fluid/core/component/type/ComponentTypeRegistryHook";
-import { ECSEntityArchetypeHook } from "@fluid/core/entity/EntityArchetypeHook";
-import { ECSEntityId } from "@fluid/core/entity/EntityId";
-import { ECSEntityManager } from "@fluid/core/entity/EntityManager";
-import { ECSNodeManager } from "@fluid/core/node/NodeManager";
-import { ECSNodeSchemaArchetypeHook } from "@fluid/core/node/schema/NodeSchemaArchetypeHook";
-import { ECSNodeSchemaRegistryHook } from "@fluid/core/node/schema/NodeSchemaRegistryHook";
-import { ECSNodeSchemaResolver } from "@fluid/core/node/schema/NodeSchemaResolver";
-import { ECSSystemOrchestrator } from "@fluid/core/system/SystemOrchestrator";
+import { ECSComponentManager } from "core/component/ComponentManager";
+import { ECSComponentRepositoryHook } from "core/component/ComponentRepositoryHook";
+import { ECSComponentTypeRegistryHook } from "core/component/type/ComponentTypeRegistryHook";
+import { Core } from "core/Core";
+import { ECSEntityArchetypeHook } from "core/entity/EntityArchetypeHook";
+import { ECSEntityId } from "core/entity/EntityId";
+import { ECSEntityManager } from "core/entity/EntityManager";
+import { ECSNodeManager } from "core/node/NodeManager";
+import { ECSNodeSchemaArchetypeHook } from "core/node/schema/NodeSchemaArchetypeHook";
+import { ECSNodeSchemaRegistryHook } from "core/node/schema/NodeSchemaRegistryHook";
+import { ECSNodeSchemaResolver } from "core/node/schema/NodeSchemaResolver";
+import { ECSSystemOrchestrator } from "core/system/SystemOrchestrator";
 import { FluidArchetypeRegistry } from "./archetype/FluidArchetypeRegistry";
 import { FluidComponentFactory } from "./component/FluidComponentFactory";
 import { FluidComponentManager } from "./component/FluidComponentManager";
@@ -34,7 +35,6 @@ import { FluidNodeSchemaIndex } from "./node/schema/FluidNodeSchemaIndex";
 import { FluidNodeSchemaRegistry } from "./node/schema/FluidNodeSchemaRegistry";
 import { FluidSystemOrchestrator } from "./system/FluidSystemOrchestrator";
 import { FluidHookDispatcher } from "./util/FluidHookDispatcher";
-import { Core } from "@fluid/core/Core";
 
 
 

@@ -4,11 +4,12 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentType } from "@fluid/core/component/type/ComponentType";
-import { ECSComponentTypeId } from "@fluid/core/component/type/ComponentTypeId";
-import { ECSComponentTypeRegistry } from "@fluid/core/component/type/ComponentTypeRegistry";
-import { ECSComponentTypeRegistryHook } from "@fluid/core/component/type/ComponentTypeRegistryHook";
-import { HookDispatcher } from "@fluid/core/util/hook/HookDispatcher";
+import { ECSComponentType } from "core/component/type/ComponentType";
+import { ECSComponentTypeId } from "core/component/type/ComponentTypeId";
+import { ECSComponentTypeRegistry } from "core/component/type/ComponentTypeRegistry";
+import { ECSComponentTypeRegistryHook } from "core/component/type/ComponentTypeRegistryHook";
+import { HookDispatcher } from "core/util/hook/HookDispatcher";
+
 
 export class FluidComponentTypeRegistry implements ECSComponentTypeRegistry {
     private map: Map<symbol, ECSComponentType<any>> = new Map();

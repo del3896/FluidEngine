@@ -4,13 +4,13 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSNodeSchema } from "@fluid/core/node/schema/NodeSchema";
-import { ECSNodeSchemaArchetypeHook } from "@fluid/core/node/schema/NodeSchemaArchetypeHook";
-import { ECSNodeSchemaMeta } from "@fluid/core/node/schema/NodeSchemaMeta";
-import { ECSNodeSchemaRegistryHook } from "@fluid/core/node/schema/NodeSchemaRegistryHook";
-import { HookDispatcher } from "@fluid/core/util/hook/HookDispatcher";
-import { FluidArchetype } from "../../archetype/FluidArchetype";
-import { FluidArchetypeRegistry } from "../../archetype/FluidArchetypeRegistry";
+import { ECSNodeSchema } from "core/node/schema/NodeSchema";
+import { ECSNodeSchemaArchetypeHook } from "core/node/schema/NodeSchemaArchetypeHook";
+import { ECSNodeSchemaMeta } from "core/node/schema/NodeSchemaMeta";
+import { ECSNodeSchemaRegistryHook } from "core/node/schema/NodeSchemaRegistryHook";
+import { HookDispatcher } from "core/util/hook/HookDispatcher";
+import { FluidArchetype } from "impl/core/archetype/FluidArchetype";
+import { FluidArchetypeRegistry } from "impl/core/archetype/FluidArchetypeRegistry";
 
 export class FluidNodeSchemaArchetypeBridge implements ECSNodeSchemaRegistryHook {
     private schemaToArchetypeMap: Map<symbol, FluidArchetype> = new Map(); // Maps each schema symbol to its archetype

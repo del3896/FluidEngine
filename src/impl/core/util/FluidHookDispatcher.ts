@@ -4,7 +4,7 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { HookDispatcher } from "@fluid/core/util/hook/HookDispatcher";
+import { HookDispatcher } from "core/util/hook/HookDispatcher";
 
 export class FluidHookDispatcher<T> implements HookDispatcher<T> {
     private readonly hooks: T[] = [];

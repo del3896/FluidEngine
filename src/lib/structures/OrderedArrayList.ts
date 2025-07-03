@@ -4,7 +4,8 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { OrderedList } from "@fluid/core/util/OrderedList";
+import { OrderedList } from "core/util/OrderedList";
+
 
 export type OrderedArrayListItem<T> = {
     item: T;

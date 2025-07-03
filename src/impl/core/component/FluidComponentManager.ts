@@ -4,13 +4,13 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponent } from "@fluid/core/component/Component";
-import { ECSComponentFactory } from "@fluid/core/component/ComponentFactory";
-import { ECSComponentManager } from "@fluid/core/component/ComponentManager";
-import { ECSComponentRepository } from "@fluid/core/component/ComponentRepository";
-import { ECSComponentTypeFactory } from "@fluid/core/component/type/ComponentTypeFactory";
-import { ECSComponentTypeRegistry } from "@fluid/core/component/type/ComponentTypeRegistry";
-import { ECSComponentTypeResolver } from "@fluid/core/component/type/ComponentTypeResolver";
+import { ECSComponentFactory } from "core/component/ComponentFactory";
+import { ECSComponentManager } from "core/component/ComponentManager";
+import { ECSComponentRepository } from "core/component/ComponentRepository";
+import { ECSComponentTypeFactory } from "core/component/type/ComponentTypeFactory";
+import { ECSComponentTypeRegistry } from "core/component/type/ComponentTypeRegistry";
+import { ECSComponentTypeResolver } from "core/component/type/ComponentTypeResolver";
+
 
 export class FluidComponentManager implements ECSComponentManager {
     constructor(

@@ -4,11 +4,12 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentRepository } from "@fluid/core/component/ComponentRepository";
-import { ECSEntityId } from "@fluid/core/entity/EntityId";
-import { ECSEntityProxy } from "@fluid/core/entity/EntityProxy";
-import { ECSEntityProxyFactory } from "@fluid/core/entity/EntityProxyFactory";
+import { ECSComponentRepository } from "core/component/ComponentRepository";
+import { ECSEntityId } from "core/entity/EntityId";
+import { ECSEntityProxy } from "core/entity/EntityProxy";
+import { ECSEntityProxyFactory } from "core/entity/EntityProxyFactory";
 import { FluidEntityProxy } from "./FluidEntityProxy";
+
 
 export class FluidEntityProxyFactory implements ECSEntityProxyFactory {
     constructor(

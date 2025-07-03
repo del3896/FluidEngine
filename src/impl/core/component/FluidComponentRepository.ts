@@ -4,13 +4,14 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponent } from "@fluid/core/component/Component";
-import { ECSComponentRepository } from "@fluid/core/component/ComponentRepository";
-import { ECSComponentRepositoryHook } from "@fluid/core/component/ComponentRepositoryHook";
-import { ECSComponentType } from "@fluid/core/component/type/ComponentType";
-import { ECSComponentTypeId } from "@fluid/core/component/type/ComponentTypeId";
-import { ECSEntityId } from "@fluid/core/entity/EntityId";
-import { HookDispatcher } from "@fluid/core/util/hook/HookDispatcher";
+import { ECSComponent } from "core/component/Component";
+import { ECSComponentRepository } from "core/component/ComponentRepository";
+import { ECSComponentRepositoryHook } from "core/component/ComponentRepositoryHook";
+import { ECSComponentType } from "core/component/type/ComponentType";
+import { ECSComponentTypeId } from "core/component/type/ComponentTypeId";
+import { ECSEntityId } from "core/entity/EntityId";
+import { HookDispatcher } from "core/util/hook/HookDispatcher";
+
 
 export class FluidComponentRepository implements ECSComponentRepository {
     private static readonly EMPTY_COMPONENT_TYPES: ReadonlyArray<ECSComponentType<any>> = Object.freeze([]);

@@ -4,8 +4,8 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSNodeSchemaMeta } from "@fluid/core/node/schema/NodeSchemaMeta";
-import { ECSSystemMeta } from "@fluid/core/system/SystemMeta";
+import { ECSNodeSchemaMeta } from "core/node/schema/NodeSchemaMeta";
+import { ECSSystemMeta } from "core/system/SystemMeta";
 
 export class FluidSystemMeta implements ECSSystemMeta {
     constructor(

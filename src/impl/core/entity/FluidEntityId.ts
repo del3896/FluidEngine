@@ -4,7 +4,8 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSEntityId } from "@fluid/core/entity/EntityId";
+import { ECSEntityId } from "core/entity/EntityId";
+
 
 export class FluidEntityId implements ECSEntityId {
     private symbol: symbol;

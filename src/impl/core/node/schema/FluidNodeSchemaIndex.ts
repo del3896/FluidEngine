@@ -4,14 +4,14 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSArchetype } from "@fluid/core/archetype/Archetype";
-import { ECSComponentType } from "@fluid/core/component/type/ComponentType";
-import { ECSNodeSchemaIndex } from "@fluid/core/node/schema/NodeSchemaIndex";
-import { ECSNodeSchemaMeta } from "@fluid/core/node/schema/NodeSchemaMeta";
-import { ECSNodeSchemaRegistryHook } from "@fluid/core/node/schema/NodeSchemaRegistryHook";
-import { ECSNodeSchemaResolver } from "@fluid/core/node/schema/NodeSchemaResolver";
-import { getLazyMappedIterable } from "@fluid/lib/utils/LazyIterableMap";
-import { FluidArchetype } from "../../archetype/FluidArchetype";
+import { ECSArchetype } from "core/archetype/Archetype";
+import { ECSComponentType } from "core/component/type/ComponentType";
+import { ECSNodeSchemaIndex } from "core/node/schema/NodeSchemaIndex";
+import { ECSNodeSchemaMeta } from "core/node/schema/NodeSchemaMeta";
+import { ECSNodeSchemaRegistryHook } from "core/node/schema/NodeSchemaRegistryHook";
+import { ECSNodeSchemaResolver } from "core/node/schema/NodeSchemaResolver";
+import { FluidArchetype } from "impl/core/archetype/FluidArchetype";
+import { getLazyMappedIterable } from "lib/utils/LazyIterableMap";
 
 export class FluidNodeSchemaIndex implements ECSNodeSchemaIndex, ECSNodeSchemaRegistryHook {
     private archetypeToSchemaMap: Map<bigint, Set<symbol>> = new Map();

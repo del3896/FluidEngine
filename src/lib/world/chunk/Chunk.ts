@@ -4,7 +4,8 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { Vec2 } from "@fluid/lib/spatial/Vector2";
+import { Vec2 } from "lib/spatial/Vector2";
+
 
 const floor = Math.floor;
 

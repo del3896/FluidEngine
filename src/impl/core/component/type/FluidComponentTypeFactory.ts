@@ -4,11 +4,11 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentFactory } from "@fluid/core/component/ComponentFactory";
-import { ECSComponentType } from "@fluid/core/component/type/ComponentType";
-import { ECSComponentTypeFactory } from "@fluid/core/component/type/ComponentTypeFactory";
-import { ECSComponentTypeRegistry } from "@fluid/core/component/type/ComponentTypeRegistry";
-import { ECSComponentTypeRegistryHook } from "@fluid/core/component/type/ComponentTypeRegistryHook";
+import { ECSComponentFactory } from "core/component/ComponentFactory";
+import { ECSComponentType } from "core/component/type/ComponentType";
+import { ECSComponentTypeFactory } from "core/component/type/ComponentTypeFactory";
+import { ECSComponentTypeRegistry } from "core/component/type/ComponentTypeRegistry";
+import { ECSComponentTypeRegistryHook } from "core/component/type/ComponentTypeRegistryHook";
 import { FluidComponentType } from "./FluidComponentType";
 import { FluidComponentTypeId } from "./FluidComponentTypeId";
 

@@ -4,11 +4,11 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSNode } from "@fluid/core/node/Node";
-import { ECSNodeSchema } from "@fluid/core/node/schema/NodeSchema";
-import { ECSNodeSchemaMeta } from "@fluid/core/node/schema/NodeSchemaMeta";
-import { ECSSystem } from "@fluid/core/system/System";
-import { ECSSystemMeta } from "@fluid/core/system/SystemMeta";
+import { ECSNode } from "core/node/Node";
+import { ECSNodeSchema } from "core/node/schema/NodeSchema";
+import { ECSNodeSchemaMeta } from "core/node/schema/NodeSchemaMeta";
+import { ECSSystem } from "core/system/System";
+import { ECSSystemMeta } from "core/system/SystemMeta";
 import { FluidSystemMeta } from "./FluidSystemMeta";
 
 export abstract class FluidSystem<S extends ECSNodeSchema> implements ECSSystem<S> {

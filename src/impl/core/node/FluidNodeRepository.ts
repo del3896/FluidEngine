@@ -4,13 +4,13 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSEntityId } from "@fluid/core/entity/EntityId";
-import { ECSNode } from "@fluid/core/node/Node";
-import { ECSNodeIndex } from "@fluid/core/node/NodeIndex";
-import { ECSNodeRepository } from "@fluid/core/node/NodeRepository";
-import { ECSNodeSchema } from "@fluid/core/node/schema/NodeSchema";
-import { ECSNodeSchemaId } from "@fluid/core/node/schema/NodeSchemaId";
-import { ECSNodeSchemaMeta } from "@fluid/core/node/schema/NodeSchemaMeta";
+import { ECSEntityId } from "core/entity/EntityId";
+import { ECSNode } from "core/node/Node";
+import { ECSNodeIndex } from "core/node/NodeIndex";
+import { ECSNodeRepository } from "core/node/NodeRepository";
+import { ECSNodeSchema } from "core/node/schema/NodeSchema";
+import { ECSNodeSchemaId } from "core/node/schema/NodeSchemaId";
+import { ECSNodeSchemaMeta } from "core/node/schema/NodeSchemaMeta";
 
 export class FluidNodeRepository implements ECSNodeRepository, ECSNodeIndex {
     private static readonly EMPTY_ITERABLE: Iterable<ECSNode<ECSNodeSchema>> = Object.freeze([]);

@@ -4,8 +4,9 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSArchetype } from "@fluid/core/archetype/Archetype";
-import { ECSComponentType } from "@fluid/core/component/type/ComponentType";
+import { ECSArchetype } from "core/archetype/Archetype";
+import { ECSComponentType } from "core/component/type/ComponentType";
+
 
 export class FluidArchetype implements ECSArchetype {
     constructor(

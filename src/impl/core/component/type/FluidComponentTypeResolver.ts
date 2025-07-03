@@ -4,10 +4,11 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentType } from "@fluid/core/component/type/ComponentType";
-import { ECSComponentTypeRegistry } from "@fluid/core/component/type/ComponentTypeRegistry";
-import { ECSComponentTypeRegistryHook } from "@fluid/core/component/type/ComponentTypeRegistryHook";
-import { ECSComponentTypeResolver } from "@fluid/core/component/type/ComponentTypeResolver";
+import { ECSComponentType } from "core/component/type/ComponentType";
+import { ECSComponentTypeRegistry } from "core/component/type/ComponentTypeRegistry";
+import { ECSComponentTypeRegistryHook } from "core/component/type/ComponentTypeRegistryHook";
+import { ECSComponentTypeResolver } from "core/component/type/ComponentTypeResolver";
+
 
 export class FluidComponentTypeResolver implements ECSComponentTypeResolver, ECSComponentTypeRegistryHook {
     private byNumericId: Map<number, ECSComponentType<any>> = new Map();

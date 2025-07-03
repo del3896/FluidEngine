@@ -4,12 +4,13 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSEntityFactory } from "@fluid/core/entity/EntityFactory";
-import { ECSEntityId } from "@fluid/core/entity/EntityId";
-import { ECSEntityManager } from "@fluid/core/entity/EntityManager";
-import { ECSEntityProxy } from "@fluid/core/entity/EntityProxy";
-import { ECSEntityProxyFactory } from "@fluid/core/entity/EntityProxyFactory";
-import { ECSEntityResolver } from "@fluid/core/entity/EntityResolver";
+import { ECSEntityFactory } from "core/entity/EntityFactory";
+import { ECSEntityId } from "core/entity/EntityId";
+import { ECSEntityManager } from "core/entity/EntityManager";
+import { ECSEntityProxy } from "core/entity/EntityProxy";
+import { ECSEntityProxyFactory } from "core/entity/EntityProxyFactory";
+import { ECSEntityResolver } from "core/entity/EntityResolver";
+
 
 
 export class FluidEntityManager implements ECSEntityManager, ECSEntityResolver {
