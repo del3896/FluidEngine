@@ -4,14 +4,14 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { Core } from "./core/Core";
-import { CoreRuntime } from "./core/CoreRuntime";
-import { ECSComponent } from "./core/component/Component";
-import { ECSComponentType } from "./core/component/type/ComponentType";
-import { ECSEntityId } from "./core/entity/EntityId";
-import { ECSEntityProxy } from "./core/entity/EntityProxy";
-import { ECSNodeSchema } from "./core/node/schema/NodeSchema";
-import { ECSNodeSchemaMeta } from "./core/node/schema/NodeSchemaMeta";
+import { Core } from "./api/core/Core";
+import { CoreRuntime } from "./api/core/CoreRuntime";
+import { ECSComponent } from "./api/core/component/Component";
+import { ECSComponentType } from "./api/core/component/type/ComponentType";
+import { ECSEntityId } from "./api/core/entity/EntityId";
+import { ECSEntityProxy } from "./api/core/entity/EntityProxy";
+import { ECSNodeSchema } from "./api/core/node/schema/NodeSchema";
+import { ECSNodeSchemaMeta } from "./api/core/node/schema/NodeSchemaMeta";
 
 export class Fluid {
     static core(): Core {
