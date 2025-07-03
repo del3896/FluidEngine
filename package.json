@@ -26,9 +26,7 @@
   },
   "homepage": "https://github.com/delqb/FluidEngine",
   "devDependencies": {
-    "typescript": "^5.8.3",
-    "vite": "^7.0.0",
-    "vite-tsconfig-paths": "^5.1.4"
+    "typescript": "^5.8.3"
   },
   "scripts": {
     "clean": "rmdir /s /q .\\dist",
