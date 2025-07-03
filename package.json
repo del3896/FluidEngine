@@ -5,6 +5,28 @@
   "description": "A versatile and performant typescript game engine",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./api": {
+      "import": "./dist/api/index.js",
+      "types": "./dist/api/index.d.ts"
+    },
+    "./fluid": {
+      "import": "./dist/fluid/index.js",
+      "types": "./dist/fluid/index.d.ts"
+    },
+    "./lib/": {
+      "import": "./dist/lib/",
+      "types": "./dist/lib/"
+    },
+    "./geometry": {
+      "import": "./dist/lib/geometry/index.js",
+      "types": "./dist/lib/geometry/index.d.ts"
+    }
+  },
   "files": [
     "dist"
   ],
