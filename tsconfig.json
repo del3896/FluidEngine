@@ -10,17 +10,6 @@
     "declaration": true,
     "declarationMap": true,
     "removeComments": false,
-    "paths": {
-      "@fluid/*": [
-        "./*"
-      ],
-      "@fluidcore/*": [
-        "./core/*"
-      ],
-      "@fluidlib/*": [
-        "./lib/*"
-      ]
-    }
   },
   "include": [
     "./src/**/*"
