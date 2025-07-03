@@ -13,7 +13,7 @@ import { ECSNodeSchema } from "./core/node/schema/NodeSchema";
 import { ECSNodeSchemaMeta } from "./core/node/schema/NodeSchemaMeta";
 
 export interface FluidAPI {
-    (core: Core): Core;
+    initialize(core: Core): Core;
     bootstrap(): Core;
     core(): Core;
     defineComponentType<T>(name: string): ECSComponentType<T>;

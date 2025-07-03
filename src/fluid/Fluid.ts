@@ -15,16 +15,14 @@ import { ECSNodeSchemaMeta } from "../api/core/node/schema/NodeSchemaMeta";
 import { FluidAPI } from "../api/FluidAPI";
 import { FluidCore } from "./core/FluidCore";
 
-
-
-function FluidInternal(core: Core): Core {
-    CoreRuntime.initialize(core);
-    return core;
-}
-
 namespace FluidInternal {
+    export function initialize(core: Core): Core {
+        CoreRuntime.initialize(core);
+        return core;
+    }
+
     export function bootstrap(): Core {
-        return FluidInternal(FluidCore.bootstrap());
+        return FluidInternal.initialize(FluidCore.bootstrap());
     }
 
     export function core(): Core {
@@ -76,4 +74,4 @@ namespace FluidInternal {
 }
 
 const fluidInternal: FluidAPI = FluidInternal;
-export default fluidInternal;
+export { fluidInternal as Fluid };
