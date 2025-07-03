@@ -4,7 +4,8 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentTypeId } from "api/core/component/type/ComponentTypeId";
+import { ECSComponentTypeId } from "../../../../api/core/component/type/ComponentTypeId";
+
 
 export class FluidComponentTypeId implements ECSComponentTypeId {
     private static readonly prefix: string = "FluidComponentType";

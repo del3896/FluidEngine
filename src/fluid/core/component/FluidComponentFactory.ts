@@ -4,10 +4,11 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentFactory } from "api/core/component/ComponentFactory";
+import { ECSComponent } from "../../../api/core/component/Component";
+import { ECSComponentFactory } from "../../../api/core/component/ComponentFactory";
+import { ECSComponentType } from "../../../api/core/component/type/ComponentType";
 import { FluidComponent } from "./FluidComponent";
-import { ECSComponent } from "api/core/component/Component";
-import { ECSComponentType } from "api/core/component/type/ComponentType";
+
 
 export class FluidComponentFactory implements ECSComponentFactory {
     createComponent<T>(componentType: ECSComponentType<T>, componentData: T, copyData: boolean): ECSComponent<T> {

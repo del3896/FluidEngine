@@ -4,11 +4,12 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSNodeIndex } from "api/core/node/NodeIndex";
-import { ECSSystemOrchestrator } from "api/core/system/SystemOrchestrator";
-import { ECSSystemPhase } from "api/core/system/SystemPhase";
-import { OrderedList } from "api/core/util/OrderedList";
-import { OrderedArrayList } from "lib/structures/OrderedArrayList";
+import { ECSNodeIndex } from "../../../api/core/node/NodeIndex";
+import { ECSSystemOrchestrator } from "../../../api/core/system/SystemOrchestrator";
+import { ECSSystemPhase } from "../../../api/core/system/SystemPhase";
+import { OrderedList } from "../../../api/core/util/OrderedList";
+import { OrderedArrayList } from "../../../lib/structures/OrderedArrayList";
+
 
 export class FluidSystemOrchestrator implements ECSSystemOrchestrator {
 

@@ -4,18 +4,18 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentManager } from "api/core/component/ComponentManager";
-import { ECSComponentRepositoryHook } from "api/core/component/ComponentRepositoryHook";
-import { ECSComponentTypeRegistryHook } from "api/core/component/type/ComponentTypeRegistryHook";
-import { Core } from "api/core/Core";
-import { ECSEntityArchetypeHook } from "api/core/entity/EntityArchetypeHook";
-import { ECSEntityId } from "api/core/entity/EntityId";
-import { ECSEntityManager } from "api/core/entity/EntityManager";
-import { ECSNodeManager } from "api/core/node/NodeManager";
-import { ECSNodeSchemaArchetypeHook } from "api/core/node/schema/NodeSchemaArchetypeHook";
-import { ECSNodeSchemaRegistryHook } from "api/core/node/schema/NodeSchemaRegistryHook";
-import { ECSNodeSchemaResolver } from "api/core/node/schema/NodeSchemaResolver";
-import { ECSSystemOrchestrator } from "api/core/system/SystemOrchestrator";
+import { ECSComponentManager } from "../../api/core/component/ComponentManager";
+import { ECSComponentRepositoryHook } from "../../api/core/component/ComponentRepositoryHook";
+import { ECSComponentTypeRegistryHook } from "../../api/core/component/type/ComponentTypeRegistryHook";
+import { Core } from "../../api/core/Core";
+import { ECSEntityArchetypeHook } from "../../api/core/entity/EntityArchetypeHook";
+import { ECSEntityId } from "../../api/core/entity/EntityId";
+import { ECSEntityManager } from "../../api/core/entity/EntityManager";
+import { ECSNodeManager } from "../../api/core/node/NodeManager";
+import { ECSNodeSchemaArchetypeHook } from "../../api/core/node/schema/NodeSchemaArchetypeHook";
+import { ECSNodeSchemaRegistryHook } from "../../api/core/node/schema/NodeSchemaRegistryHook";
+import { ECSNodeSchemaResolver } from "../../api/core/node/schema/NodeSchemaResolver";
+import { ECSSystemOrchestrator } from "../../api/core/system/SystemOrchestrator";
 import { FluidArchetypeRegistry } from "./archetype/FluidArchetypeRegistry";
 import { FluidComponentFactory } from "./component/FluidComponentFactory";
 import { FluidComponentManager } from "./component/FluidComponentManager";

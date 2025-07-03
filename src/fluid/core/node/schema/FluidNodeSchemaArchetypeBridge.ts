@@ -4,13 +4,14 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSNodeSchema } from "api/core/node/schema/NodeSchema";
-import { ECSNodeSchemaArchetypeHook } from "api/core/node/schema/NodeSchemaArchetypeHook";
-import { ECSNodeSchemaMeta } from "api/core/node/schema/NodeSchemaMeta";
-import { ECSNodeSchemaRegistryHook } from "api/core/node/schema/NodeSchemaRegistryHook";
-import { HookDispatcher } from "api/core/util/hook/HookDispatcher";
-import { FluidArchetype } from "fluid/core/archetype/FluidArchetype";
-import { FluidArchetypeRegistry } from "fluid/core/archetype/FluidArchetypeRegistry";
+import { ECSNodeSchema } from "../../../../api/core/node/schema/NodeSchema";
+import { ECSNodeSchemaArchetypeHook } from "../../../../api/core/node/schema/NodeSchemaArchetypeHook";
+import { ECSNodeSchemaMeta } from "../../../../api/core/node/schema/NodeSchemaMeta";
+import { ECSNodeSchemaRegistryHook } from "../../../../api/core/node/schema/NodeSchemaRegistryHook";
+import { HookDispatcher } from "../../../../api/core/util/hook/HookDispatcher";
+import { FluidArchetype } from "../../archetype/FluidArchetype";
+import { FluidArchetypeRegistry } from "../../archetype/FluidArchetypeRegistry";
+
 
 export class FluidNodeSchemaArchetypeBridge implements ECSNodeSchemaRegistryHook {
     private schemaToArchetypeMap: Map<symbol, FluidArchetype> = new Map(); // Maps each schema symbol to its archetype

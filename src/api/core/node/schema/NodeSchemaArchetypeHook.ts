@@ -4,7 +4,7 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSArchetype } from "api/core/archetype/Archetype";
+import { ECSArchetype } from "../../archetype/Archetype";
 import { ECSNodeSchemaMeta } from "./NodeSchemaMeta";
 
 export interface ECSNodeSchemaArchetypeHook {

@@ -4,10 +4,10 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentRepository } from "api/core/component/ComponentRepository";
-import { ECSEntityId } from "api/core/entity/EntityId";
-import { ECSEntityProxy } from "api/core/entity/EntityProxy";
-import { ECSEntityProxyFactory } from "api/core/entity/EntityProxyFactory";
+import { ECSComponentRepository } from "../../../api/core/component/ComponentRepository";
+import { ECSEntityId } from "../../../api/core/entity/EntityId";
+import { ECSEntityProxy } from "../../../api/core/entity/EntityProxy";
+import { ECSEntityProxyFactory } from "../../../api/core/entity/EntityProxyFactory";
 import { FluidEntityProxy } from "./FluidEntityProxy";
 
 

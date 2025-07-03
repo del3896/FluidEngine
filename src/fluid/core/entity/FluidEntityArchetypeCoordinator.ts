@@ -4,15 +4,15 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSArchetype } from "api/core/archetype/Archetype";
-import { ECSComponent } from "api/core/component/Component";
-import { ECSComponentRepositoryHook } from "api/core/component/ComponentRepositoryHook";
-import { ECSComponentType } from "api/core/component/type/ComponentType";
-import { ECSEntityArchetypeHook } from "api/core/entity/EntityArchetypeHook";
-import { ECSEntityArchetypeResolver } from "api/core/entity/EntityArchetypeResolver";
-import { ECSEntityComponentTypesProvider } from "api/core/entity/EntityComponentTypesProvider";
-import { ECSEntityId } from "api/core/entity/EntityId";
-import { HookDispatcher } from "api/core/util/hook/HookDispatcher";
+import { ECSArchetype } from "../../../api/core/archetype/Archetype";
+import { ECSComponent } from "../../../api/core/component/Component";
+import { ECSComponentRepositoryHook } from "../../../api/core/component/ComponentRepositoryHook";
+import { ECSComponentType } from "../../../api/core/component/type/ComponentType";
+import { ECSEntityArchetypeHook } from "../../../api/core/entity/EntityArchetypeHook";
+import { ECSEntityArchetypeResolver } from "../../../api/core/entity/EntityArchetypeResolver";
+import { ECSEntityComponentTypesProvider } from "../../../api/core/entity/EntityComponentTypesProvider";
+import { ECSEntityId } from "../../../api/core/entity/EntityId";
+import { HookDispatcher } from "../../../api/core/util/hook/HookDispatcher";
 import { FluidArchetype } from "../archetype/FluidArchetype";
 import { FluidArchetypeRegistry } from "../archetype/FluidArchetypeRegistry";
 

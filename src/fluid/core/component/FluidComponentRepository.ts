@@ -4,13 +4,14 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponent } from "api/core/component/Component";
-import { ECSComponentRepository } from "api/core/component/ComponentRepository";
-import { ECSComponentRepositoryHook } from "api/core/component/ComponentRepositoryHook";
-import { ECSComponentType } from "api/core/component/type/ComponentType";
-import { ECSComponentTypeId } from "api/core/component/type/ComponentTypeId";
-import { ECSEntityId } from "api/core/entity/EntityId";
-import { HookDispatcher } from "api/core/util/hook/HookDispatcher";
+import { ECSComponent } from "../../../api/core/component/Component";
+import { ECSComponentRepository } from "../../../api/core/component/ComponentRepository";
+import { ECSComponentRepositoryHook } from "../../../api/core/component/ComponentRepositoryHook";
+import { ECSComponentType } from "../../../api/core/component/type/ComponentType";
+import { ECSComponentTypeId } from "../../../api/core/component/type/ComponentTypeId";
+import { ECSEntityId } from "../../../api/core/entity/EntityId";
+import { HookDispatcher } from "../../../api/core/util/hook/HookDispatcher";
+
 
 
 export class FluidComponentRepository implements ECSComponentRepository {

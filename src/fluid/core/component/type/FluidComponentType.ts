@@ -4,10 +4,10 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponent } from "api/core/component/Component";
-import { ECSComponentFactory } from "api/core/component/ComponentFactory";
-import { ECSComponentType } from "api/core/component/type/ComponentType";
-import { ECSComponentTypeId } from "api/core/component/type/ComponentTypeId";
+import { ECSComponent } from "../../../../api/core/component/Component";
+import { ECSComponentFactory } from "../../../../api/core/component/ComponentFactory";
+import { ECSComponentType } from "../../../../api/core/component/type/ComponentType";
+import { ECSComponentTypeId } from "../../../../api/core/component/type/ComponentTypeId";
 import { FluidComponentTypeId } from "./FluidComponentTypeId";
 
 export class FluidComponentType<T> implements ECSComponentType<T> {

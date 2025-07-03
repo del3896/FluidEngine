@@ -4,17 +4,18 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSArchetype } from "api/core/archetype/Archetype";
-import { ECSComponentType } from "api/core/component/type/ComponentType";
-import { ECSEntityArchetypeHook } from "api/core/entity/EntityArchetypeHook";
-import { ECSEntityId } from "api/core/entity/EntityId";
-import { ECSNodeFactory } from "api/core/node/NodeFactory";
-import { ECSNodeIndex } from "api/core/node/NodeIndex";
-import { ECSNodeManager } from "api/core/node/NodeManager";
-import { ECSNodeRepository } from "api/core/node/NodeRepository";
-import { ECSNodeSchemaArchetypeProvider } from "api/core/node/schema/NodeSchemaArchetypeProvider";
-import { ECSNodeSchemaIndex } from "api/core/node/schema/NodeSchemaIndex";
-import { ECSNodeSchemaRegistry } from "api/core/node/schema/NodeSchemaRegistry";
+import { ECSArchetype } from "../../../api/core/archetype/Archetype";
+import { ECSComponentType } from "../../../api/core/component/type/ComponentType";
+import { ECSEntityArchetypeHook } from "../../../api/core/entity/EntityArchetypeHook";
+import { ECSEntityId } from "../../../api/core/entity/EntityId";
+import { ECSNodeFactory } from "../../../api/core/node/NodeFactory";
+import { ECSNodeIndex } from "../../../api/core/node/NodeIndex";
+import { ECSNodeManager } from "../../../api/core/node/NodeManager";
+import { ECSNodeRepository } from "../../../api/core/node/NodeRepository";
+import { ECSNodeSchemaArchetypeProvider } from "../../../api/core/node/schema/NodeSchemaArchetypeProvider";
+import { ECSNodeSchemaIndex } from "../../../api/core/node/schema/NodeSchemaIndex";
+import { ECSNodeSchemaRegistry } from "../../../api/core/node/schema/NodeSchemaRegistry";
+
 
 export class FluidNodeManager implements ECSNodeManager, ECSEntityArchetypeHook {
     constructor(

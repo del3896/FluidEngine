@@ -4,14 +4,15 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSArchetype } from "api/core/archetype/Archetype";
-import { ECSComponentType } from "api/core/component/type/ComponentType";
-import { ECSNodeSchemaIndex } from "api/core/node/schema/NodeSchemaIndex";
-import { ECSNodeSchemaMeta } from "api/core/node/schema/NodeSchemaMeta";
-import { ECSNodeSchemaRegistryHook } from "api/core/node/schema/NodeSchemaRegistryHook";
-import { ECSNodeSchemaResolver } from "api/core/node/schema/NodeSchemaResolver";
-import { FluidArchetype } from "fluid/core/archetype/FluidArchetype";
-import { getLazyMappedIterable } from "lib/utils/LazyIterableMap";
+import { ECSArchetype } from "../../../../api/core/archetype/Archetype";
+import { ECSComponentType } from "../../../../api/core/component/type/ComponentType";
+import { ECSNodeSchemaIndex } from "../../../../api/core/node/schema/NodeSchemaIndex";
+import { ECSNodeSchemaMeta } from "../../../../api/core/node/schema/NodeSchemaMeta";
+import { ECSNodeSchemaRegistryHook } from "../../../../api/core/node/schema/NodeSchemaRegistryHook";
+import { ECSNodeSchemaResolver } from "../../../../api/core/node/schema/NodeSchemaResolver";
+import { getLazyMappedIterable } from "../../../../lib/utils/LazyIterableMap";
+import { FluidArchetype } from "../../archetype/FluidArchetype";
+
 
 export class FluidNodeSchemaIndex implements ECSNodeSchemaIndex, ECSNodeSchemaRegistryHook {
     private archetypeToSchemaMap: Map<bigint, Set<symbol>> = new Map();

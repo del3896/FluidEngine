@@ -4,11 +4,12 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentType } from "api/core/component/type/ComponentType";
-import { ECSComponentTypeId } from "api/core/component/type/ComponentTypeId";
-import { ECSComponentTypeRegistry } from "api/core/component/type/ComponentTypeRegistry";
-import { ECSComponentTypeRegistryHook } from "api/core/component/type/ComponentTypeRegistryHook";
-import { HookDispatcher } from "api/core/util/hook/HookDispatcher";
+import { ECSComponentType } from "../../../../api/core/component/type/ComponentType";
+import { ECSComponentTypeId } from "../../../../api/core/component/type/ComponentTypeId";
+import { ECSComponentTypeRegistry } from "../../../../api/core/component/type/ComponentTypeRegistry";
+import { ECSComponentTypeRegistryHook } from "../../../../api/core/component/type/ComponentTypeRegistryHook";
+import { HookDispatcher } from "../../../../api/core/util/hook/HookDispatcher";
+
 
 
 export class FluidComponentTypeRegistry implements ECSComponentTypeRegistry {
