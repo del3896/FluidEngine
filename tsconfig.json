@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
-    "moduleResolution": "node",
+    "module": "node18",
     "moduleDetection": "force",
-    "target": "ESNext",
-    "module": "ESNext",
+    "target": "esnext",
     "rootDir": "src",
     "outDir": "dist",
     "declaration": true,
