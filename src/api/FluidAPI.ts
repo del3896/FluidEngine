@@ -23,4 +23,4 @@ export interface FluidAPI {
     addEntityComponent<T>(entityId: ECSEntityId, component: ECSComponent<T>): void;
     addEntityComponents(entityId: ECSEntityId, ...components: ECSComponent<any>[]): void;
     createEntityWithComponents(...components: ECSComponent<any>[]): ECSEntityId;
-};
+}

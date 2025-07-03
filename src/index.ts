@@ -5,3 +5,4 @@
 */
 
 export * from "./fluid/Fluid";
+export * from "./lib/geometry";

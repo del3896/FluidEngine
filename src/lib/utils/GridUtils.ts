@@ -4,8 +4,8 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { Axes } from "../spatial/OBB";
-import { Vec2 } from "../spatial/Vector2";
+import { Axes } from "../geometry/OBB";
+import { Vec2 } from "../geometry/Vector2";
 import { encodeIntegerPair } from "./MathUtils";
 
 const ceil = Math.ceil, floor = Math.floor;
