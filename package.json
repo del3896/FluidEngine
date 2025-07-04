@@ -3,24 +3,42 @@
   "type": "module",
   "version": "0.0.0",
   "description": "A versatile and performant typescript game engine",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
     },
-    "./api": {
-      "import": "./dist/api/index.js",
-      "types": "./dist/api/index.d.ts"
+    "./v0": {
+      "import": "./dist/v0/index.js",
+      "types": "./dist/v0/index.d.ts"
     },
-    "./fluid": {
-      "import": "./dist/fluid/index.js",
-      "types": "./dist/fluid/index.d.ts"
+    "./v0/api": {
+      "import": "./dist/v0/api/index.js",
+      "types": "./dist/v0/api/index.d.ts"
     },
-    "./geometry": {
-      "import": "./dist/lib/geometry/index.js",
-      "types": "./dist/lib/geometry/index.d.ts"
+    "./v0/internal": {
+      "import": "./dist/v0/internal/index.js",
+      "types": "./dist/v0/internal/index.d.ts"
+    },
+    "./v0/lib": {
+      "import": "./dist/v0/lib/index.js",
+      "types": "./dist/v0/lib/index.d.ts"
+    },
+    "./dev": {
+      "import": "./dist/dev/index.js",
+      "types": "./dist/dev/index.d.ts"
+    },
+    "./dev/api": {
+      "import": "./dist/dev/api/index.js",
+      "types": "./dist/dev/api/index.d.ts"
+    },
+    "./dev/internal": {
+      "import": "./dist/dev/internal/index.js",
+      "types": "./dist/dev/internal/index.d.ts"
+    },
+    "./dev/lib": {
+      "import": "./dist/dev/lib/index.js",
+      "types": "./dist/dev/lib/index.d.ts"
     }
   },
   "files": [
@@ -49,6 +67,6 @@
   "scripts": {
     "clean": "rmdir /s /q .\\dist",
     "build": "npm run clean && tsc",
-    "prepare": "tsc"
+    "prepare": "npm run build"
   }
 }
