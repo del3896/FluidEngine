@@ -67,6 +67,6 @@
   "scripts": {
     "clean": "rmdir /s /q .\\dist",
     "build": "npm run clean && tsc",
-    "prepare": "npm run build"
+    "prepare": "tsc"
   }
 }
