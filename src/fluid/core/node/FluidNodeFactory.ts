@@ -4,12 +4,12 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSEntityComponentProvider } from "../../../api/core/entity/EntityComponentProvider";
-import { ECSEntityId } from "../../../api/core/entity/EntityId";
-import { ECSNode } from "../../../api/core/node/Node";
-import { ECSNodeFactory } from "../../../api/core/node/NodeFactory";
-import { ECSNodeSchema } from "../../../api/core/node/schema/NodeSchema";
-import { ECSNodeSchemaMeta } from "../../../api/core/node/schema/NodeSchemaMeta";
+import { ECSEntityComponentProvider } from "../../../api/core/entity/EntityComponentProvider.js";
+import { ECSEntityId } from "../../../api/core/entity/EntityId.js";
+import { ECSNode } from "../../../api/core/node/Node.js";
+import { ECSNodeFactory } from "../../../api/core/node/NodeFactory.js";
+import { ECSNodeSchema } from "../../../api/core/node/schema/NodeSchema.js";
+import { ECSNodeSchemaMeta } from "../../../api/core/node/schema/NodeSchemaMeta.js";
 
 
 export class FluidNodeFactory implements ECSNodeFactory {

@@ -4,12 +4,12 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSEntityFactory } from "../../../api/core/entity/EntityFactory";
-import { ECSEntityId } from "../../../api/core/entity/EntityId";
-import { ECSEntityManager } from "../../../api/core/entity/EntityManager";
-import { ECSEntityProxy } from "../../../api/core/entity/EntityProxy";
-import { ECSEntityProxyFactory } from "../../../api/core/entity/EntityProxyFactory";
-import { ECSEntityResolver } from "../../../api/core/entity/EntityResolver";
+import { ECSEntityFactory } from "../../../api/core/entity/EntityFactory.js";
+import { ECSEntityId } from "../../../api/core/entity/EntityId.js";
+import { ECSEntityManager } from "../../../api/core/entity/EntityManager.js";
+import { ECSEntityProxy } from "../../../api/core/entity/EntityProxy.js";
+import { ECSEntityProxyFactory } from "../../../api/core/entity/EntityProxyFactory.js";
+import { ECSEntityResolver } from "../../../api/core/entity/EntityResolver.js";
 
 
 

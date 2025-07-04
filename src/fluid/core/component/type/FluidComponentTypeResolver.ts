@@ -4,10 +4,10 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentType } from "../../../../api/core/component/type/ComponentType";
-import { ECSComponentTypeRegistry } from "../../../../api/core/component/type/ComponentTypeRegistry";
-import { ECSComponentTypeRegistryHook } from "../../../../api/core/component/type/ComponentTypeRegistryHook";
-import { ECSComponentTypeResolver } from "../../../../api/core/component/type/ComponentTypeResolver";
+import { ECSComponentType } from "../../../../api/core/component/type/ComponentType.js";
+import { ECSComponentTypeRegistry } from "../../../../api/core/component/type/ComponentTypeRegistry.js";
+import { ECSComponentTypeRegistryHook } from "../../../../api/core/component/type/ComponentTypeRegistryHook.js";
+import { ECSComponentTypeResolver } from "../../../../api/core/component/type/ComponentTypeResolver.js";
 
 
 

@@ -4,11 +4,11 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentFactory } from "./ComponentFactory";
-import { ECSComponentRepository } from "./ComponentRepository";
-import { ECSComponentTypeFactory } from "./type/ComponentTypeFactory";
-import { ECSComponentTypeRegistry } from "./type/ComponentTypeRegistry";
-import { ECSComponentTypeResolver } from "./type/ComponentTypeResolver";
+import { ECSComponentFactory } from "./ComponentFactory.js";
+import { ECSComponentRepository } from "./ComponentRepository.js";
+import { ECSComponentTypeFactory } from "./type/ComponentTypeFactory.js";
+import { ECSComponentTypeRegistry } from "./type/ComponentTypeRegistry.js";
+import { ECSComponentTypeResolver } from "./type/ComponentTypeResolver.js";
 
 export interface ECSComponentManager {
     getComponentTypeFactory(): ECSComponentTypeFactory;

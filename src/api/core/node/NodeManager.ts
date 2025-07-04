@@ -4,10 +4,10 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import {ECSNodeFactory} from "./NodeFactory";
-import {ECSNodeIndex} from "./NodeIndex";
-import {ECSNodeRepository} from "./NodeRepository";
-import {ECSNodeSchemaRegistry} from "./schema/NodeSchemaRegistry";
+import {ECSNodeFactory} from "./NodeFactory.js";
+import {ECSNodeIndex} from "./NodeIndex.js";
+import {ECSNodeRepository} from "./NodeRepository.js";
+import {ECSNodeSchemaRegistry} from "./schema/NodeSchemaRegistry.js";
 
 export interface ECSNodeManager {
     getNodeRepository(): ECSNodeRepository;

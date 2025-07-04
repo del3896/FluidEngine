@@ -4,14 +4,14 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { Vec2 } from "../../geometry/Vector2";
+import { Vec2 } from "../../geometry/Vector2.js";
 
 
 
 const floor = Math.floor;
 
-export type ChunkIndex = [number, number] & { __brand: "ChunkIndex" };
-export type ChunkKey = string & { __brand: "ChunkKey" };
+export type ChunkIndex = [number, number] & { __brand: "ChunkIndex.js" };
+export type ChunkKey = string & { __brand: "ChunkKey.js" };
 
 export const enum ChunkState {
     Loaded = 1,

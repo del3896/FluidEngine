@@ -4,9 +4,9 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSNode } from "../node/Node";
-import { ECSNodeSchema } from "../node/schema/NodeSchema";
-import { ECSSystemMeta } from "./SystemMeta";
+import { ECSNode } from "../node/Node.js";
+import { ECSNodeSchema } from "../node/schema/NodeSchema.js";
+import { ECSSystemMeta } from "./SystemMeta.js";
 
 export interface ECSSystem<S extends ECSNodeSchema> {
     getSystemMeta(): ECSSystemMeta;

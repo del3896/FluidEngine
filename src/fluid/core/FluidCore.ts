@@ -4,37 +4,37 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentManager } from "../../api/core/component/ComponentManager";
-import { ECSComponentRepositoryHook } from "../../api/core/component/ComponentRepositoryHook";
-import { ECSComponentTypeRegistryHook } from "../../api/core/component/type/ComponentTypeRegistryHook";
-import { Core } from "../../api/core/Core";
-import { ECSEntityArchetypeHook } from "../../api/core/entity/EntityArchetypeHook";
-import { ECSEntityId } from "../../api/core/entity/EntityId";
-import { ECSEntityManager } from "../../api/core/entity/EntityManager";
-import { ECSNodeManager } from "../../api/core/node/NodeManager";
-import { ECSNodeSchemaArchetypeHook } from "../../api/core/node/schema/NodeSchemaArchetypeHook";
-import { ECSNodeSchemaRegistryHook } from "../../api/core/node/schema/NodeSchemaRegistryHook";
-import { ECSNodeSchemaResolver } from "../../api/core/node/schema/NodeSchemaResolver";
-import { ECSSystemOrchestrator } from "../../api/core/system/SystemOrchestrator";
-import { FluidArchetypeRegistry } from "./archetype/FluidArchetypeRegistry";
-import { FluidComponentFactory } from "./component/FluidComponentFactory";
-import { FluidComponentManager } from "./component/FluidComponentManager";
-import { FluidComponentRepository } from "./component/FluidComponentRepository";
-import { FluidComponentTypeFactory } from "./component/type/FluidComponentTypeFactory";
-import { FluidComponentTypeRegistry } from "./component/type/FluidComponentTypeRegistry";
-import { FluidComponentTypeResolver } from "./component/type/FluidComponentTypeResolver";
-import { FluidEntityArchetypeCoordinator } from "./entity/FluidEntityArchetypeCoordinator";
-import { FluidEntityFactory } from "./entity/FluidEntityFactory";
-import { FluidEntityManager } from "./entity/FluidEntityManager";
-import { FluidEntityProxyFactory } from "./entity/FluidEntityProxyFactory";
-import { FluidNodeFactory } from "./node/FluidNodeFactory";
-import { FluidNodeManager } from "./node/FluidNodeManager";
-import { FluidNodeRepository } from "./node/FluidNodeRepository";
-import { FluidNodeSchemaArchetypeBridge } from "./node/schema/FluidNodeSchemaArchetypeBridge";
-import { FluidNodeSchemaIndex } from "./node/schema/FluidNodeSchemaIndex";
-import { FluidNodeSchemaRegistry } from "./node/schema/FluidNodeSchemaRegistry";
-import { FluidSystemOrchestrator } from "./system/FluidSystemOrchestrator";
-import { FluidHookDispatcher } from "./util/FluidHookDispatcher";
+import { ECSComponentManager } from "../../api/core/component/ComponentManager.js";
+import { ECSComponentRepositoryHook } from "../../api/core/component/ComponentRepositoryHook.js";
+import { ECSComponentTypeRegistryHook } from "../../api/core/component/type/ComponentTypeRegistryHook.js";
+import { Core } from "../../api/core/Core.js";
+import { ECSEntityArchetypeHook } from "../../api/core/entity/EntityArchetypeHook.js";
+import { ECSEntityId } from "../../api/core/entity/EntityId.js";
+import { ECSEntityManager } from "../../api/core/entity/EntityManager.js";
+import { ECSNodeManager } from "../../api/core/node/NodeManager.js";
+import { ECSNodeSchemaArchetypeHook } from "../../api/core/node/schema/NodeSchemaArchetypeHook.js";
+import { ECSNodeSchemaRegistryHook } from "../../api/core/node/schema/NodeSchemaRegistryHook.js";
+import { ECSNodeSchemaResolver } from "../../api/core/node/schema/NodeSchemaResolver.js";
+import { ECSSystemOrchestrator } from "../../api/core/system/SystemOrchestrator.js";
+import { FluidArchetypeRegistry } from "./archetype/FluidArchetypeRegistry.js";
+import { FluidComponentFactory } from "./component/FluidComponentFactory.js";
+import { FluidComponentManager } from "./component/FluidComponentManager.js";
+import { FluidComponentRepository } from "./component/FluidComponentRepository.js";
+import { FluidComponentTypeFactory } from "./component/type/FluidComponentTypeFactory.js";
+import { FluidComponentTypeRegistry } from "./component/type/FluidComponentTypeRegistry.js";
+import { FluidComponentTypeResolver } from "./component/type/FluidComponentTypeResolver.js";
+import { FluidEntityArchetypeCoordinator } from "./entity/FluidEntityArchetypeCoordinator.js";
+import { FluidEntityFactory } from "./entity/FluidEntityFactory.js";
+import { FluidEntityManager } from "./entity/FluidEntityManager.js";
+import { FluidEntityProxyFactory } from "./entity/FluidEntityProxyFactory.js";
+import { FluidNodeFactory } from "./node/FluidNodeFactory.js";
+import { FluidNodeManager } from "./node/FluidNodeManager.js";
+import { FluidNodeRepository } from "./node/FluidNodeRepository.js";
+import { FluidNodeSchemaArchetypeBridge } from "./node/schema/FluidNodeSchemaArchetypeBridge.js";
+import { FluidNodeSchemaIndex } from "./node/schema/FluidNodeSchemaIndex.js";
+import { FluidNodeSchemaRegistry } from "./node/schema/FluidNodeSchemaRegistry.js";
+import { FluidSystemOrchestrator } from "./system/FluidSystemOrchestrator.js";
+import { FluidHookDispatcher } from "./util/FluidHookDispatcher.js";
 
 
 

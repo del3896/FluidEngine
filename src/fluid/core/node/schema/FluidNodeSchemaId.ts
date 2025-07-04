@@ -4,7 +4,7 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSNodeSchemaId } from "../../../../api/core/node/schema/NodeSchemaId";
+import { ECSNodeSchemaId } from "../../../../api/core/node/schema/NodeSchemaId.js";
 
 
 

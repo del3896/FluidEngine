@@ -4,9 +4,9 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import {ECSComponentType} from "../component/type/ComponentType";
-import {ECSEntityId} from "../entity/EntityId";
-import {ECSNodeSchema} from "./schema/NodeSchema";
+import {ECSComponentType} from "../component/type/ComponentType.js";
+import {ECSEntityId} from "../entity/EntityId.js";
+import {ECSNodeSchema} from "./schema/NodeSchema.js";
 
 export type ECSNodeComponentUnion<S extends ECSNodeSchema> =
     S[keyof S] extends ECSComponentType<infer T> ? T : never;

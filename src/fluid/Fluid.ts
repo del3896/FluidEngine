@@ -4,16 +4,16 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponent } from "../api/core/component/Component";
-import { ECSComponentType } from "../api/core/component/type/ComponentType";
-import { Core } from "../api/core/Core";
-import { CoreRuntime } from "../api/core/CoreRuntime";
-import { ECSEntityId } from "../api/core/entity/EntityId";
-import { ECSEntityProxy } from "../api/core/entity/EntityProxy";
-import { ECSNodeSchema } from "../api/core/node/schema/NodeSchema";
-import { ECSNodeSchemaMeta } from "../api/core/node/schema/NodeSchemaMeta";
-import { FluidAPI } from "../api/FluidAPI";
-import { FluidCore } from "./core/FluidCore";
+import { ECSComponent } from "../api/core/component/Component.js";
+import { ECSComponentType } from "../api/core/component/type/ComponentType.js";
+import { Core } from "../api/core/Core.js";
+import { CoreRuntime } from "../api/core/CoreRuntime.js";
+import { ECSEntityId } from "../api/core/entity/EntityId.js";
+import { ECSEntityProxy } from "../api/core/entity/EntityProxy.js";
+import { ECSNodeSchema } from "../api/core/node/schema/NodeSchema.js";
+import { ECSNodeSchemaMeta } from "../api/core/node/schema/NodeSchemaMeta.js";
+import { FluidAPI } from "../api/FluidAPI.js";
+import { FluidCore } from "./core/FluidCore.js";
 
 namespace FluidInternal {
     export function initialize(core: Core): Core {

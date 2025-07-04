@@ -4,11 +4,11 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponent } from "../../../../api/core/component/Component";
-import { ECSComponentFactory } from "../../../../api/core/component/ComponentFactory";
-import { ECSComponentType } from "../../../../api/core/component/type/ComponentType";
-import { ECSComponentTypeId } from "../../../../api/core/component/type/ComponentTypeId";
-import { FluidComponentTypeId } from "./FluidComponentTypeId";
+import { ECSComponent } from "../../../../api/core/component/Component.js";
+import { ECSComponentFactory } from "../../../../api/core/component/ComponentFactory.js";
+import { ECSComponentType } from "../../../../api/core/component/type/ComponentType.js";
+import { ECSComponentTypeId } from "../../../../api/core/component/type/ComponentTypeId.js";
+import { FluidComponentTypeId } from "./FluidComponentTypeId.js";
 
 export class FluidComponentType<T> implements ECSComponentType<T> {
     constructor(

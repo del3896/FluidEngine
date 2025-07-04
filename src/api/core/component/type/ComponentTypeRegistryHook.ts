@@ -4,8 +4,8 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import {ECSComponentType} from "./ComponentType";
-import {ECSComponentTypeRegistry} from "./ComponentTypeRegistry";
+import {ECSComponentType} from "./ComponentType.js";
+import {ECSComponentTypeRegistry} from "./ComponentTypeRegistry.js";
 
 export interface ECSComponentTypeRegistryHook {
     onRegisterComponentType<T>(

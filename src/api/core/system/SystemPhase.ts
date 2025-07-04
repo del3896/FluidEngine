@@ -4,9 +4,9 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSNodeIndex } from "../node/NodeIndex";
-import { ECSNodeSchema } from "../node/schema/NodeSchema";
-import { ECSSystem } from "./System";
+import { ECSNodeIndex } from "../node/NodeIndex.js";
+import { ECSNodeSchema } from "../node/schema/NodeSchema.js";
+import { ECSSystem } from "./System.js";
 
 export interface ECSSystemPhase {
     getName(): string;

@@ -4,14 +4,14 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSArchetype } from "../../../../api/core/archetype/Archetype";
-import { ECSComponentType } from "../../../../api/core/component/type/ComponentType";
-import { ECSNodeSchemaIndex } from "../../../../api/core/node/schema/NodeSchemaIndex";
-import { ECSNodeSchemaMeta } from "../../../../api/core/node/schema/NodeSchemaMeta";
-import { ECSNodeSchemaRegistryHook } from "../../../../api/core/node/schema/NodeSchemaRegistryHook";
-import { ECSNodeSchemaResolver } from "../../../../api/core/node/schema/NodeSchemaResolver";
-import { getLazyMappedIterable } from "../../../../lib/utils/LazyIterableMap";
-import { FluidArchetype } from "../../archetype/FluidArchetype";
+import { ECSArchetype } from "../../../../api/core/archetype/Archetype.js";
+import { ECSComponentType } from "../../../../api/core/component/type/ComponentType.js";
+import { ECSNodeSchemaIndex } from "../../../../api/core/node/schema/NodeSchemaIndex.js";
+import { ECSNodeSchemaMeta } from "../../../../api/core/node/schema/NodeSchemaMeta.js";
+import { ECSNodeSchemaRegistryHook } from "../../../../api/core/node/schema/NodeSchemaRegistryHook.js";
+import { ECSNodeSchemaResolver } from "../../../../api/core/node/schema/NodeSchemaResolver.js";
+import { getLazyMappedIterable } from "../../../../lib/utils/LazyIterableMap.js";
+import { FluidArchetype } from "../../archetype/FluidArchetype.js";
 
 
 export class FluidNodeSchemaIndex implements ECSNodeSchemaIndex, ECSNodeSchemaRegistryHook {

@@ -4,7 +4,7 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import {ECSNodeSchemaMeta} from "../node/schema/NodeSchemaMeta";
+import {ECSNodeSchemaMeta} from "../node/schema/NodeSchemaMeta.js";
 
 export interface ECSSystemMeta {
     readonly systemName: string;

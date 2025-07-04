@@ -4,10 +4,10 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import {ECSEntityId} from "../entity/EntityId";
-import {ECSNode} from "./Node";
-import {ECSNodeSchema} from "./schema/NodeSchema";
-import {ECSNodeSchemaId} from "./schema/NodeSchemaId";
+import {ECSEntityId} from "../entity/EntityId.js";
+import {ECSNode} from "./Node.js";
+import {ECSNodeSchema} from "./schema/NodeSchema.js";
+import {ECSNodeSchemaId} from "./schema/NodeSchemaId.js";
 
 export interface ECSNodeRepository {
     hasNode(schemaId: ECSNodeSchemaId, entityId: ECSEntityId): boolean;

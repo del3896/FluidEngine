@@ -4,8 +4,8 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSArchetype } from "../../../api/core/archetype/Archetype";
-import { ECSComponentType } from "../../../api/core/component/type/ComponentType";
+import { ECSArchetype } from "../../../api/core/archetype/Archetype.js";
+import { ECSComponentType } from "../../../api/core/component/type/ComponentType.js";
 
 
 

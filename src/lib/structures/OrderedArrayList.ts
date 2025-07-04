@@ -4,7 +4,7 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { OrderedList } from "../../api/core/util/OrderedList";
+import { OrderedList } from "../../api/core/util/OrderedList.js";
 
 
 

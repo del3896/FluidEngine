@@ -4,8 +4,8 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { Core } from "./api/core/Core";
-import { FPSTimer } from "./lib/utils/FPSTimer";
+import { Core } from "./api/core/Core.js";
+import { FPSTimer } from "./lib/utils/FPSTimer.js";
 
 export class FluidEngine {
     private isAnimating = false;

@@ -4,7 +4,7 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { FluidArchetype } from "./FluidArchetype";
+import { FluidArchetype } from "./FluidArchetype.js";
 
 export class FluidArchetypeRegistry {
     private readonly map = new Map<bigint, FluidArchetype>();

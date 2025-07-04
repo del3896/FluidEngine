@@ -4,9 +4,9 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSArchetype } from "../archetype/Archetype";
-import { ECSComponentType } from "../component/type/ComponentType";
-import { ECSEntityId } from "./EntityId";
+import { ECSArchetype } from "../archetype/Archetype.js";
+import { ECSComponentType } from "../component/type/ComponentType.js";
+import { ECSEntityId } from "./EntityId.js";
 
 export interface ECSEntityArchetypeHook {
     onEntityArchetypeExpansion(entityId: ECSEntityId, addedComponentType: ECSComponentType<any>, previousArchetype: ECSArchetype, newArchetype: ECSArchetype): void;

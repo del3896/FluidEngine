@@ -4,13 +4,13 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSNodeSchema } from "../../../../api/core/node/schema/NodeSchema";
-import { ECSNodeSchemaId } from "../../../../api/core/node/schema/NodeSchemaId";
-import { ECSNodeSchemaMeta } from "../../../../api/core/node/schema/NodeSchemaMeta";
-import { ECSNodeSchemaRegistry } from "../../../../api/core/node/schema/NodeSchemaRegistry";
-import { ECSNodeSchemaRegistryHook } from "../../../../api/core/node/schema/NodeSchemaRegistryHook";
-import { HookDispatcher } from "../../../../api/core/util/hook/HookDispatcher";
-import { FluidNodeSchemaId } from "./FluidNodeSchemaId";
+import { ECSNodeSchema } from "../../../../api/core/node/schema/NodeSchema.js";
+import { ECSNodeSchemaId } from "../../../../api/core/node/schema/NodeSchemaId.js";
+import { ECSNodeSchemaMeta } from "../../../../api/core/node/schema/NodeSchemaMeta.js";
+import { ECSNodeSchemaRegistry } from "../../../../api/core/node/schema/NodeSchemaRegistry.js";
+import { ECSNodeSchemaRegistryHook } from "../../../../api/core/node/schema/NodeSchemaRegistryHook.js";
+import { HookDispatcher } from "../../../../api/core/util/hook/HookDispatcher.js";
+import { FluidNodeSchemaId } from "./FluidNodeSchemaId.js";
 
 export class FluidNodeSchemaRegistry implements ECSNodeSchemaRegistry {
     private schemaMap: Map<symbol, ECSNodeSchemaMeta> = new Map();

@@ -4,5 +4,5 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-export * from "./fluid/Fluid";
-export * from "./lib/geometry";
+export * from "./fluid/Fluid.js";
+export * from "./lib/geometry/index.js";

@@ -4,7 +4,7 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { HookDispatcher } from "../../../api/core/util/hook/HookDispatcher";
+import { HookDispatcher } from "../../../api/core/util/hook/HookDispatcher.js";
 
 
 export class FluidHookDispatcher<T> implements HookDispatcher<T> {

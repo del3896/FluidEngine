@@ -4,13 +4,13 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSNodeSchema } from "../../../../api/core/node/schema/NodeSchema";
-import { ECSNodeSchemaArchetypeHook } from "../../../../api/core/node/schema/NodeSchemaArchetypeHook";
-import { ECSNodeSchemaMeta } from "../../../../api/core/node/schema/NodeSchemaMeta";
-import { ECSNodeSchemaRegistryHook } from "../../../../api/core/node/schema/NodeSchemaRegistryHook";
-import { HookDispatcher } from "../../../../api/core/util/hook/HookDispatcher";
-import { FluidArchetype } from "../../archetype/FluidArchetype";
-import { FluidArchetypeRegistry } from "../../archetype/FluidArchetypeRegistry";
+import { ECSNodeSchema } from "../../../../api/core/node/schema/NodeSchema.js";
+import { ECSNodeSchemaArchetypeHook } from "../../../../api/core/node/schema/NodeSchemaArchetypeHook.js";
+import { ECSNodeSchemaMeta } from "../../../../api/core/node/schema/NodeSchemaMeta.js";
+import { ECSNodeSchemaRegistryHook } from "../../../../api/core/node/schema/NodeSchemaRegistryHook.js";
+import { HookDispatcher } from "../../../../api/core/util/hook/HookDispatcher.js";
+import { FluidArchetype } from "../../archetype/FluidArchetype.js";
+import { FluidArchetypeRegistry } from "../../archetype/FluidArchetypeRegistry.js";
 
 
 export class FluidNodeSchemaArchetypeBridge implements ECSNodeSchemaRegistryHook {

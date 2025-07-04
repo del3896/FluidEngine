@@ -4,8 +4,8 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponent } from "../Component";
-import { ECSComponentTypeId } from "./ComponentTypeId";
+import { ECSComponent } from "../Component.js";
+import { ECSComponentTypeId } from "./ComponentTypeId.js";
 
 /**
  * Represents a type descriptor for a specific component kind. Serves as a factory and identifier for components of type `T`.

@@ -4,11 +4,11 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSEntityFactory } from "./EntityFactory";
-import { ECSEntityId } from "./EntityId";
-import { ECSEntityProxy } from "./EntityProxy";
-import { ECSEntityProxyFactory } from "./EntityProxyFactory";
-import { ECSEntityResolver } from "./EntityResolver";
+import { ECSEntityFactory } from "./EntityFactory.js";
+import { ECSEntityId } from "./EntityId.js";
+import { ECSEntityProxy } from "./EntityProxy.js";
+import { ECSEntityProxyFactory } from "./EntityProxyFactory.js";
+import { ECSEntityResolver } from "./EntityResolver.js";
 
 export interface ECSEntityManager {
     getEntityFactory(): ECSEntityFactory;

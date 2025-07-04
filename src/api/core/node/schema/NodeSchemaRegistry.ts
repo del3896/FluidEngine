@@ -4,9 +4,9 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import {ECSNodeSchema} from "./NodeSchema";
-import {ECSNodeSchemaId} from "./NodeSchemaId";
-import {ECSNodeSchemaMeta} from "./NodeSchemaMeta";
+import {ECSNodeSchema} from "./NodeSchema.js";
+import {ECSNodeSchemaId} from "./NodeSchemaId.js";
+import {ECSNodeSchemaMeta} from "./NodeSchemaMeta.js";
 
 export interface ECSNodeSchemaRegistry {
     hasSchema(schemaId: ECSNodeSchemaId): boolean;

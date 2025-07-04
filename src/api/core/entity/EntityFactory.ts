@@ -4,7 +4,7 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import {ECSEntityId} from "./EntityId";
+import {ECSEntityId} from "./EntityId.js";
 
 export interface ECSEntityFactory {
     createEntityId(): ECSEntityId;

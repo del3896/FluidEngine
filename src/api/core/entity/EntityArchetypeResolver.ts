@@ -4,8 +4,8 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import {ECSArchetype} from "../archetype/Archetype";
-import {ECSEntityId} from "./EntityId";
+import {ECSArchetype} from "../archetype/Archetype.js";
+import {ECSEntityId} from "./EntityId.js";
 
 export interface ECSEntityArchetypeResolver {
     getArchetypeOfEntity(entityId: ECSEntityId): ECSArchetype;

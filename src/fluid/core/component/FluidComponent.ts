@@ -4,8 +4,8 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponent } from "../../../api/core/component/Component";
-import { ECSComponentTypeId } from "../../../api/core/component/type/ComponentTypeId";
+import { ECSComponent } from "../../../api/core/component/Component.js";
+import { ECSComponentTypeId } from "../../../api/core/component/type/ComponentTypeId.js";
 
 
 

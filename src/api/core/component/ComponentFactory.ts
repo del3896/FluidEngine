@@ -4,8 +4,8 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import {ECSComponent} from "./Component";
-import {ECSComponentType} from "./type/ComponentType";
+import {ECSComponent} from "./Component.js";
+import {ECSComponentType} from "./type/ComponentType.js";
 
 export interface ECSComponentFactory {
     /**

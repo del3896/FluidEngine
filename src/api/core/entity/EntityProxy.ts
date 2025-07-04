@@ -4,8 +4,8 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponent } from "../component/Component";
-import { ECSComponentType } from "../component/type/ComponentType";
+import { ECSComponent } from "../component/Component.js";
+import { ECSComponentType } from "../component/type/ComponentType.js";
 
 export interface ECSEntityProxy {
     hasComponent<T>(componentType: ECSComponentType<T>): boolean;

@@ -4,12 +4,12 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentFactory } from "../../../api/core/component/ComponentFactory";
-import { ECSComponentManager } from "../../../api/core/component/ComponentManager";
-import { ECSComponentRepository } from "../../../api/core/component/ComponentRepository";
-import { ECSComponentTypeFactory } from "../../../api/core/component/type/ComponentTypeFactory";
-import { ECSComponentTypeRegistry } from "../../../api/core/component/type/ComponentTypeRegistry";
-import { ECSComponentTypeResolver } from "../../../api/core/component/type/ComponentTypeResolver";
+import { ECSComponentFactory } from "../../../api/core/component/ComponentFactory.js";
+import { ECSComponentManager } from "../../../api/core/component/ComponentManager.js";
+import { ECSComponentRepository } from "../../../api/core/component/ComponentRepository.js";
+import { ECSComponentTypeFactory } from "../../../api/core/component/type/ComponentTypeFactory.js";
+import { ECSComponentTypeRegistry } from "../../../api/core/component/type/ComponentTypeRegistry.js";
+import { ECSComponentTypeResolver } from "../../../api/core/component/type/ComponentTypeResolver.js";
 
 
 

@@ -4,7 +4,7 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { Core } from "./Core";
+import { Core } from "./Core.js";
 
 export class CoreRuntime {
     private static __instance: Core | null = null;

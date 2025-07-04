@@ -4,7 +4,7 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import {RectSize} from "./RectSize";
+import {RectSize} from "./RectSize.js";
 
 export type AABB = {
     maxY: number;

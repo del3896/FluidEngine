@@ -4,13 +4,13 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponent } from "./core/component/Component";
-import { ECSComponentType } from "./core/component/type/ComponentType";
-import { Core } from "./core/Core";
-import { ECSEntityId } from "./core/entity/EntityId";
-import { ECSEntityProxy } from "./core/entity/EntityProxy";
-import { ECSNodeSchema } from "./core/node/schema/NodeSchema";
-import { ECSNodeSchemaMeta } from "./core/node/schema/NodeSchemaMeta";
+import { ECSComponent } from "./core/component/Component.js";
+import { ECSComponentType } from "./core/component/type/ComponentType.js";
+import { Core } from "./core/Core.js";
+import { ECSEntityId } from "./core/entity/EntityId.js";
+import { ECSEntityProxy } from "./core/entity/EntityProxy.js";
+import { ECSNodeSchema } from "./core/node/schema/NodeSchema.js";
+import { ECSNodeSchemaMeta } from "./core/node/schema/NodeSchemaMeta.js";
 
 export interface FluidAPI {
     initialize(core: Core): Core;

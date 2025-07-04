@@ -18,10 +18,6 @@
       "import": "./dist/fluid/index.js",
       "types": "./dist/fluid/index.d.ts"
     },
-    "./lib/": {
-      "import": "./dist/lib/",
-      "types": "./dist/lib/"
-    },
     "./geometry": {
       "import": "./dist/lib/geometry/index.js",
       "types": "./dist/lib/geometry/index.d.ts"

@@ -4,11 +4,11 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentType } from "../../../../api/core/component/type/ComponentType";
-import { ECSComponentTypeId } from "../../../../api/core/component/type/ComponentTypeId";
-import { ECSComponentTypeRegistry } from "../../../../api/core/component/type/ComponentTypeRegistry";
-import { ECSComponentTypeRegistryHook } from "../../../../api/core/component/type/ComponentTypeRegistryHook";
-import { HookDispatcher } from "../../../../api/core/util/hook/HookDispatcher";
+import { ECSComponentType } from "../../../../api/core/component/type/ComponentType.js";
+import { ECSComponentTypeId } from "../../../../api/core/component/type/ComponentTypeId.js";
+import { ECSComponentTypeRegistry } from "../../../../api/core/component/type/ComponentTypeRegistry.js";
+import { ECSComponentTypeRegistryHook } from "../../../../api/core/component/type/ComponentTypeRegistryHook.js";
+import { HookDispatcher } from "../../../../api/core/util/hook/HookDispatcher.js";
 
 
 

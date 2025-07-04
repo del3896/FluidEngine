@@ -4,13 +4,13 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSComponentFactory } from "../../../../api/core/component/ComponentFactory";
-import { ECSComponentType } from "../../../../api/core/component/type/ComponentType";
-import { ECSComponentTypeFactory } from "../../../../api/core/component/type/ComponentTypeFactory";
-import { ECSComponentTypeRegistry } from "../../../../api/core/component/type/ComponentTypeRegistry";
-import { ECSComponentTypeRegistryHook } from "../../../../api/core/component/type/ComponentTypeRegistryHook";
-import { FluidComponentType } from "./FluidComponentType";
-import { FluidComponentTypeId } from "./FluidComponentTypeId";
+import { ECSComponentFactory } from "../../../../api/core/component/ComponentFactory.js";
+import { ECSComponentType } from "../../../../api/core/component/type/ComponentType.js";
+import { ECSComponentTypeFactory } from "../../../../api/core/component/type/ComponentTypeFactory.js";
+import { ECSComponentTypeRegistry } from "../../../../api/core/component/type/ComponentTypeRegistry.js";
+import { ECSComponentTypeRegistryHook } from "../../../../api/core/component/type/ComponentTypeRegistryHook.js";
+import { FluidComponentType } from "./FluidComponentType.js";
+import { FluidComponentTypeId } from "./FluidComponentTypeId.js";
 
 export class FluidComponentTypeFactory implements ECSComponentTypeFactory, ECSComponentTypeRegistryHook {
     private nextNumericId: number = 0;

@@ -4,9 +4,9 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import { ECSEntityFactory } from "../../../api/core/entity/EntityFactory";
-import { ECSEntityId } from "../../../api/core/entity/EntityId";
-import { FluidEntityId } from "./FluidEntityId";
+import { ECSEntityFactory } from "../../../api/core/entity/EntityFactory.js";
+import { ECSEntityId } from "../../../api/core/entity/EntityId.js";
+import { FluidEntityId } from "./FluidEntityId.js";
 
 
 export class FluidEntityFactory implements ECSEntityFactory {

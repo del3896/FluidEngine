@@ -4,7 +4,7 @@
     Copyright (c) 2025 Del Elbanna
 */
 
-import {Vec2} from "./Vector2";
+import {Vec2} from "./Vector2.js";
 
 export type ConvexPolygon = Vec2[];// must be in counter-clockwise or clockwise order
 
