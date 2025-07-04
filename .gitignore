@@ -2,8 +2,9 @@ dist/
 temp/
 node_modules
 package-lock.json
-.idea/*
+.idea*
 LICENSEHEADER
 LICENSEHEADERPREV
-addlicense.py
+*.py
+__pycache__
 *.tgz
