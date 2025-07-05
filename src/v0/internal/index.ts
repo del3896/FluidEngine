@@ -1,3 +1,5 @@
+export * from "./Fluid.js";
+export * from "./FluidEngine.js";
 export * from "./core/FluidCore.js";
 
 export * from "./core/archetype/index.js";
