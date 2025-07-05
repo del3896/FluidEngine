@@ -1,3 +1,9 @@
+
+/** 
+    Released under MIT License
+    Copyright (c) 2025 Del Elbanna
+*/
+
 export * from "./archetype/Archetype.js";
 export * from "./component/index.js";
 export * from "./entity/index.js";

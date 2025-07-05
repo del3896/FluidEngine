@@ -1,3 +1,9 @@
+
+/** 
+    Released under MIT License
+    Copyright (c) 2025 Del Elbanna
+*/
+
 export * from "./FPSTimer.js";
 export * as GridUtils from "./GridUtils.js";
 export * as ImageUtils from "./ImageUtils.js";

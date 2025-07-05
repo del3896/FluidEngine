@@ -1,3 +1,9 @@
+
+/** 
+    Released under MIT License
+    Copyright (c) 2025 Del Elbanna
+*/
+
 export * from "./Fluid.js";
 export * from "./FluidEngine.js";
 export * from "./core/FluidCore.js";

@@ -1,3 +1,9 @@
+
+/** 
+    Released under MIT License
+    Copyright (c) 2025 Del Elbanna
+*/
+
 export * from "./FluidComponent.js";
 export * from "./FluidComponentFactory.js";
 export * from "./FluidComponentManager.js";

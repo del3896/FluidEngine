@@ -1,3 +1,9 @@
+
+/** 
+    Released under MIT License
+    Copyright (c) 2025 Del Elbanna
+*/
+
 export * from "./FluidNodeFactory.js";
 export * from "./FluidNodeManager.js";
 export * from "./FluidNodeRepository.js";

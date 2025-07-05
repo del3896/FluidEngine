@@ -1,3 +1,9 @@
+
+/** 
+    Released under MIT License
+    Copyright (c) 2025 Del Elbanna
+*/
+
 export * from "./Component.js";
 export * from "./ComponentFactory.js";
 export * from "./ComponentManager.js";
