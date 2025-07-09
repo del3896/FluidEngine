@@ -6,7 +6,7 @@
 
 export * as api from "./api/index.js";
 export * as internal from "./internal/index.js";
-export * as lib from "./lib/index.js";
+export * as lib from "./lib.js";
 
 // Re-exporting Fluid for ergonomic access
 export { Fluid } from "./internal/index.js";
