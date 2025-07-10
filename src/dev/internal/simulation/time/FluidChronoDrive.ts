@@ -16,7 +16,7 @@ export interface FluidChronoDriveOptions {
 }
 
 /**
- * FluidChronoDrive is a hybrid timing engine that blends real-time updates with fixed-step simulation logic. It uses frame-based callbacks to accumulate time, processes consistent simulation ticks based on elapsed real time, and supports time scaling for dynamic time control. It is designed to maintain deterministic behavior across variable frame rates, making it ideal for games, simulations, or any time-dependent systems.
+ * FluidChronoDrive manages two concurrent flows of time: a continuous real-time flow, which updates every animation frame and reflects the passage of time as perceived by the user, and a discrete simulated time flow, which advances in fixed-size intervals to ensure deterministic updates to systems like physics or game logic. This dual-flow design enables precise, consistent simulation behavior without being tethered to frame rate fluctuations, and allows for sophisticated time manipulation like scaling, pausing, or catching up missed steps.
  * 
  * @implements ChronoDrive
  */
