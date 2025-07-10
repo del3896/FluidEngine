@@ -1,5 +1,9 @@
 import { ChronoDriveHook } from "./ChronoDriveHook.js";
 
+/**
+ * ChronoDrive is a time management and ticking system, designed to control time flow 
+ * for real-time applications like games, simulations, and animations.
+ */
 export interface ChronoDrive {
     /** Returns the total time passed while active, in milliseconds */
     getElapsedTime(): number;

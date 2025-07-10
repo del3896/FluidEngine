@@ -9,6 +9,11 @@ export interface FluidChronoDriveOptions {
     maxSubstepsPerTick?: number;
 }
 
+/**
+ * FluidChronoDrive is a hybrid timing engine that blends real-time updates with fixed-step simulation logic. It uses frame-based callbacks to accumulate time, processes consistent simulation ticks based on elapsed real time, and supports time scaling for dynamic time control. It is designed to maintain deterministic behavior across variable frame rates, making it ideal for games, simulations, or any time-dependent systems.
+ * 
+ * @implements ChronoDrive
+ */
 export class FluidChronoDrive implements ChronoDrive {
     private tickInterval: number;
     /** Real-time, not scaled by timeScale */
